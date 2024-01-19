@@ -28,6 +28,7 @@ body{
     box-shadow: 0px 5px 5px rgb(0,0,0, 30%);
     grid-area: 1/2/2/3;
     display: inline-grid;
+    border-bottom:3px solid rgba(3, 106, 161, 0.628);
 }
 
 .headerRight{
@@ -184,14 +185,13 @@ body{
 
 
 .content{
-    margin-top:1rem;
     grid-area: 2/2/3/3;
-    padding: 0rem 2rem 2rem 2rem;
+    padding: 1rem 2rem 2rem 2rem;
     display: grid;
     grid-template: 1fr / 6fr 1fr;
     gap: 1rem;
     height: 100%;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .projects {
