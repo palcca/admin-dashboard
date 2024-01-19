@@ -1,14 +1,18 @@
 *{
     font-family: sans-serif;
-    border:0px red solid;
-    font-size: max(1rem ,max(0.9vh, 0.9vw));
+    border:1px red solid;
+    font-size: max(1rem ,max(0.8vh, 0.8vw));
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+html, body, .container{
+    height:100%;
+}
+
 body{
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 .container{
@@ -209,10 +213,12 @@ body{
     padding: 1rem 1rem 2rem 1rem;
 
 }
+
 .announcements .card{
     height: min(20rem, 30vh);
     padding: 1rem 1rem 2rem 1rem;
 }
+
 .card{
     display: flex;
     flex-direction: column;
