@@ -177,8 +177,8 @@ body{
     background-color: white;
     margin-right: 1rem;
     margin-left: 1rem;
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 
@@ -215,6 +215,8 @@ body{
 }
 .trending .card:hover, .announcements .card:hover{
     box-shadow: none;
+    position: relative;
+    top: 0px; left: 0px;
 }
 
 .announcements .card{
@@ -262,7 +264,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: none;
     padding: 1.8rem;
     border-radius: 1rem;
     background: linear-gradient(to right, #d97706 0%, #d97706 3%, white 3% );
@@ -287,6 +288,9 @@ body{
 }
 
 .card:hover{
+    position: relative;
+    top: -5px; 
+    left: -5px;
     box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
     border-color: #d97706;
 }
